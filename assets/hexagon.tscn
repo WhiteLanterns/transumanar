@@ -1,0 +1,9 @@
+[gd_scene load_steps=2 format=3 uid="uid://cd1xys3qi4bro"]
+
+[ext_resource type="PackedScene" uid="uid://dvx6dkgnii144" path="res://assets/hexagon.glb" id="1_73nh5"]
+
+[node name="hexagon" instance=ExtResource("1_73nh5")]
+transform = Transform3D(1, 0, 0, 0, 0.5, 0, 0, 0, 1, 0, 0, 0)
+
+[node name="Cylinder" parent="." index="0"]
+transform = Transform3D(0.866025, 0, 0.5, 0, 1, 0, -0.5, 0, 0.866025, 0, 0, 0)

@@ -1,0 +1,7 @@
+[gd_scene load_steps=2 format=3 uid="uid://8mmsgtq5eqcc"]
+
+[ext_resource type="PackedScene" uid="uid://cd1xys3qi4bro" path="res://assets/hexagon.tscn" id="1_2crfn"]
+
+[node name="HexTile" type="Node3D"]
+
+[node name="hexagon" parent="." instance=ExtResource("1_2crfn")]
